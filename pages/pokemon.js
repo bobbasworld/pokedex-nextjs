@@ -19,9 +19,16 @@ export default function pokemon({ pokeman }) {
       {pokeman.types.map((type, index) => (
         <p key={index}>{type.type.name}</p>
       ))}
-      <p className="mt-10 text-center">
+      <p className="mt-5 pb-10 text-center">
         <Link href="/">
-          <a className="text-2xl underline">Home</a>
+          <a className="text-2xl underline">
+            <img
+              src="https://s.svgbox.net/materialui.svg?ic=arrow_back"
+              alt="back"
+              height="30"
+              width="30"
+            />
+          </a>
         </Link>
       </p>
     </Layout>
