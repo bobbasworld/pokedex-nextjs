@@ -6,7 +6,7 @@ export default function Home({ pokemon }) {
   // console.log(pokemon);
   return (
     <Layout title="NextJS Pokedex">
-      <h1 className="text-4xl mb-8 text-center">NextJS Pokedex</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">NextJS Pokedex</h1>
       <ul>
         {pokemon.map((pokeman, index) => (
           <li key={index}>
